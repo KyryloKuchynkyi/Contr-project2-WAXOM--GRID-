@@ -32,6 +32,7 @@
     justify-items: center;
     grid-column-gap: 30px;
 }
+
 .menuTitle {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -46,6 +47,10 @@
     font-weight: 400;
     font-size: 23px;
     font-style: normal;
+}
+
+.menuTitle li a:hover {
+    color: #c7b299;
 }
 
 .navigation {
@@ -75,6 +80,53 @@
     position: relative;
     top: -125px;
     z-index: 1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-rows-slider {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.grid-rows-slider h2 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+}
+
+.grid-rows-slider h3 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+.grid-rows-slider a {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: white;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid-rows-slider button {
+    width: 150px;
+    height: 40px;
+    background-color: #998675;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
 }
 
 
@@ -101,9 +153,13 @@
     align-items: center;
 }
 
-/* .section1-box:nth-child(2) img {
-    ------------
-} */
+.section1-box:hover h3{
+    color: #c7b299;
+}
+
+.section1-box:hover .section1-box-bottom-border {
+    border-bottom: 3px solid #c7b299;
+}
 
 .section1-box h3 {
     font-family: myriad-arabic, sans-serif;
@@ -353,6 +409,27 @@
     font-style: normal;
 }
 
+.small-boxes button:hover {
+    background-color: #998675;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.image_box:hover img {
+    opacity:0.5;
+    background-color:black;
+    background-size: cover;
+}
+
+.image_box:hover .text_for_image {
+    background-color: #362f2d;
+    color: white;
+}
+
+.image_box:hover .text_for_image .search-txt a {
+    color: #c7b299;
+}
+
 /* SECTION-5 */
 
 .section5 {
@@ -555,6 +632,25 @@
     color: #c7b299;
 }
 
+.box-section8:hover img {
+    opacity:0.5;
+    background-color:black;
+    background-size: cover;
+}
+
+.box-section8:hover .txt-img-section8 {
+    background-color: #362f2d;
+    color: white;
+}
+.box-section8:hover .txt-img-section8 h3 {
+    color:#c7b299;
+}
+
+.box-section8:hover .txt-img-section8 a {
+    color: white;
+}
+
+
 /* SECTION-9 */
 
 .section9 {
@@ -571,6 +667,8 @@
     align-items: center;
     height: 490px;
 }
+
+
 
 /* FOOTER */
 

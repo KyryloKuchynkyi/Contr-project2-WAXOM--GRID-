@@ -1148,6 +1148,7 @@
 
     .box-section4 {
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
 
     .text-section4 h3 {
@@ -1161,6 +1162,7 @@
     .load-more {
         position: static;
         margin-top: 15px;
+        margin-left: 30%;
     }
 
     /* SECTION-5 */
@@ -1178,12 +1180,19 @@
     .grid-columns-section6 {
         display: grid;
         grid-template-columns: 1fr;
+        justify-items: center;
     }
 
     .grid-columns-section6 img {
         top: 10px;
         width: 300px;
         height: 375px;
+    }
+
+    .text-section6 h3 {
+        margin-top: 20px;
+        width: auto;
+        margin-left: 20px;
     }
 
     .text-section6 {
@@ -1212,7 +1221,7 @@
         display: grid;
         grid-template-columns: 1fr;
         height: auto;
-        padding-bottom: 15px;
+        padding: 20px;
     }
 
     /* SECTION-8 */

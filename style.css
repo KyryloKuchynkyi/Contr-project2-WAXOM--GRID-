@@ -1014,6 +1014,10 @@
         width: 341px;
     }
 
+    .txt-img-section8 button {
+        position: static;
+    }
+
     /* SECTION-9 */
 
     .grid-columns-section9 img {
@@ -1050,7 +1054,6 @@
         position: static;
     }
 
-    .grid-rows-slider {}
 
     .grid-rows-slider h2 {
         font-size: 25px;
